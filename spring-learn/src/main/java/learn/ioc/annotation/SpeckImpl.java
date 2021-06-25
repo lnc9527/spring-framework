@@ -1,1 +1,1 @@
-package learn.ioc.annotation;/** * @author: xuzhilin@kaike.la * @date: 2021/4/19 17:14 * @description: */public class SpeckImpl implements Speck {    @Override    public void say() {        System.out.println("sh .......");    }}
+package learn.ioc.annotation;public class SpeckImpl implements Speck {    @Override    public void say() {        System.out.println("sh .......");    }}
